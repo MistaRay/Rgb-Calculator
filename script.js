@@ -104,7 +104,7 @@ delButton.addEventListener('click', button => {
   calculator.updateDisplay()
 })
 
-const colors = ["#001FFF","brown", "red", "blue", "green", "yellow", "purple", "orange", "pink", "cyan"]
+const colors = ["brown", "red", "blue", "green", "yellow", "purple", "orange", "pink", "cyan"]
 
 
 

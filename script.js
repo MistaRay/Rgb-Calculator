@@ -73,11 +73,6 @@ const colorButton = document.querySelector('[data-color]')
 
 const calculator = new Calculator(prevText, curText)
 
-// numButtons.addEventListener('click', function() {
-//   const randomIndex = colors[Math.floor(Math.random() * colors.length)]
-//   document.querySelector("body").style.background = randomIndex;
-// })
-
 numButtons.forEach(button => {
   button.addEventListener('click', () => {
     calculator.appendNum(button.innerText)
@@ -110,6 +105,8 @@ delButton.addEventListener('click', button => {
 })
 
 const colors = ["red", "blue", "green", "yellow", "purple", "orange", "pink", "cyan"]
+
+
 
 
 
